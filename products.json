@@ -1,0 +1,2512 @@
+[
+    {
+        "id": 77,
+        "name": "Chocolate",
+        "qtd": 2,
+        "value": 9.19,
+        "market_id": 17,
+        "category_id": 27,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 78,
+        "name": "Uva",
+        "qtd": 1,
+        "value": 8.99,
+        "market_id": 17,
+        "category_id": 28,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 79,
+        "name": "Laranja",
+        "qtd": 1,
+        "value": 1.94,
+        "market_id": 17,
+        "category_id": 28,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 80,
+        "name": "Queijo",
+        "qtd": 1,
+        "value": 14.77,
+        "market_id": 17,
+        "category_id": 29,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 81,
+        "name": "Presunto",
+        "qtd": 1,
+        "value": 6.36,
+        "market_id": 17,
+        "category_id": 29,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 82,
+        "name": "Alface",
+        "qtd": 1,
+        "value": 2.79,
+        "market_id": 17,
+        "category_id": 30,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 83,
+        "name": "Beirute",
+        "qtd": 1,
+        "value": 43.99,
+        "market_id": 18,
+        "category_id": 31,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 84,
+        "name": "Passagem",
+        "qtd": 2,
+        "value": 4.4,
+        "market_id": 19,
+        "category_id": 33,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 85,
+        "name": "Capuccino",
+        "qtd": 1,
+        "value": 15,
+        "market_id": 20,
+        "category_id": 31,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 87,
+        "name": "Trem ida e volta",
+        "qtd": 2,
+        "value": 4.4,
+        "market_id": 22,
+        "category_id": 33,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 88,
+        "name": "Banho",
+        "qtd": 1,
+        "value": 55,
+        "market_id": 23,
+        "category_id": 35,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 89,
+        "name": "Veneshi gel 5l",
+        "qtd": 1,
+        "value": 49.9,
+        "market_id": 24,
+        "category_id": 36,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 90,
+        "name": "Alcool",
+        "qtd": 1,
+        "value": 100,
+        "market_id": 25,
+        "category_id": 37,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 91,
+        "name": "Carona luan",
+        "qtd": 1,
+        "value": 16,
+        "market_id": 26,
+        "category_id": 32,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 92,
+        "name": "Almoço no escritório",
+        "qtd": 1,
+        "value": 30,
+        "market_id": 27,
+        "category_id": 31,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 96,
+        "name": "Queijo parmesão ralado",
+        "qtd": 1,
+        "value": 11.5,
+        "market_id": 31,
+        "category_id": 29,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 97,
+        "name": "Salsicha",
+        "qtd": 1,
+        "value": 12.04,
+        "market_id": 31,
+        "category_id": 29,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 98,
+        "name": "Coentro",
+        "qtd": 1,
+        "value": 4.49,
+        "market_id": 31,
+        "category_id": 30,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 99,
+        "name": "Batata lays",
+        "qtd": 1,
+        "value": 7.09,
+        "market_id": 31,
+        "category_id": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 100,
+        "name": "Presunto",
+        "qtd": 1,
+        "value": 5.88,
+        "market_id": 31,
+        "category_id": 29,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 101,
+        "name": "Queijo mussarela",
+        "qtd": 1,
+        "value": 8.38,
+        "market_id": 31,
+        "category_id": 29,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 102,
+        "name": "Pães + frios",
+        "qtd": 1,
+        "value": 12.23,
+        "market_id": 32,
+        "category_id": 40,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 103,
+        "name": "Abacate",
+        "qtd": 1,
+        "value": 1.77,
+        "market_id": 33,
+        "category_id": 28,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 104,
+        "name": "Pepino",
+        "qtd": 1,
+        "value": 1.12,
+        "market_id": 33,
+        "category_id": 30,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 105,
+        "name": "Biscoito de polvilho",
+        "qtd": 1,
+        "value": 3.98,
+        "market_id": 33,
+        "category_id": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 106,
+        "name": "Uva",
+        "qtd": 1,
+        "value": 7.49,
+        "market_id": 33,
+        "category_id": 28,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 107,
+        "name": "Molho de tomate",
+        "qtd": 3,
+        "value": 1.59,
+        "market_id": 33,
+        "category_id": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 108,
+        "name": "Batata pigles",
+        "qtd": 1,
+        "value": 9.99,
+        "market_id": 33,
+        "category_id": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 109,
+        "name": "Jujuba",
+        "qtd": 1,
+        "value": 2.69,
+        "market_id": 33,
+        "category_id": 27,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 110,
+        "name": "Macarrão",
+        "qtd": 1,
+        "value": 4.69,
+        "market_id": 33,
+        "category_id": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 111,
+        "name": "Macarrão",
+        "qtd": 1,
+        "value": 4.99,
+        "market_id": 33,
+        "category_id": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 112,
+        "name": "Batata lays",
+        "qtd": 1,
+        "value": 8.98,
+        "market_id": 33,
+        "category_id": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 113,
+        "name": "Banana",
+        "qtd": 1,
+        "value": 4.4,
+        "market_id": 33,
+        "category_id": 28,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 114,
+        "name": "Guaraná",
+        "qtd": 1,
+        "value": 2.99,
+        "market_id": 33,
+        "category_id": 41,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 115,
+        "name": "Suco de laranja natural 1,5L",
+        "qtd": 1,
+        "value": 9.69,
+        "market_id": 33,
+        "category_id": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 116,
+        "name": "Chocolate",
+        "qtd": 2,
+        "value": 6.98,
+        "market_id": 33,
+        "category_id": 27,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 117,
+        "name": "Cif saponaseo",
+        "qtd": 1,
+        "value": 12.29,
+        "market_id": 33,
+        "category_id": 36,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 118,
+        "name": "Creme de ricota",
+        "qtd": 1,
+        "value": 7.49,
+        "market_id": 33,
+        "category_id": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 119,
+        "name": "Nestlé grego iogurte",
+        "qtd": 4,
+        "value": 2.89,
+        "market_id": 33,
+        "category_id": 42,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 120,
+        "name": "H 2O limão",
+        "qtd": 1,
+        "value": 3.48,
+        "market_id": 33,
+        "category_id": 41,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 121,
+        "name": "Ovos",
+        "qtd": 1,
+        "value": 14.99,
+        "market_id": 33,
+        "category_id": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 122,
+        "name": "Salários",
+        "qtd": 1,
+        "value": 1880,
+        "market_id": 34,
+        "category_id": 43,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 124,
+        "name": "Netflix",
+        "qtd": 1,
+        "value": 39.9,
+        "market_id": 36,
+        "category_id": 47,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 125,
+        "name": "Carona lulu",
+        "qtd": 1,
+        "value": 16,
+        "market_id": 37,
+        "category_id": 32,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 126,
+        "name": "Gasolina",
+        "qtd": 1,
+        "value": 50,
+        "market_id": 38,
+        "category_id": 37,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 127,
+        "name": "Salgado",
+        "qtd": 3,
+        "value": 7,
+        "market_id": 39,
+        "category_id": 31,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 128,
+        "name": "Aluguel",
+        "qtd": 1,
+        "value": 1081,
+        "market_id": 40,
+        "category_id": 49,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 129,
+        "name": "Internet",
+        "qtd": 1,
+        "value": 159.99,
+        "market_id": 41,
+        "category_id": 50,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 130,
+        "name": "Luz",
+        "qtd": 1,
+        "value": 156.61,
+        "market_id": 42,
+        "category_id": 51,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 131,
+        "name": "Catro",
+        "qtd": 1,
+        "value": 944.16,
+        "market_id": 43,
+        "category_id": 52,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 132,
+        "name": "Convenio",
+        "qtd": 1,
+        "value": 250,
+        "market_id": 44,
+        "category_id": 54,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 133,
+        "name": "Trem ida e volta",
+        "qtd": 2,
+        "value": 4.4,
+        "market_id": 46,
+        "category_id": 32,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 134,
+        "name": "Cartao de crédito- fatura",
+        "qtd": 1,
+        "value": 1472.05,
+        "market_id": 47,
+        "category_id": 55,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 135,
+        "name": "Internet",
+        "qtd": 1,
+        "value": 55,
+        "market_id": 48,
+        "category_id": 50,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 136,
+        "name": "Convênio",
+        "qtd": 1,
+        "value": 160,
+        "market_id": 49,
+        "category_id": 54,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 137,
+        "name": "Coxão mole",
+        "qtd": 1,
+        "value": 60.34,
+        "market_id": 50,
+        "category_id": 39,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 138,
+        "name": "Carne moida",
+        "qtd": 1,
+        "value": 29.02,
+        "market_id": 50,
+        "category_id": 39,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 139,
+        "name": "Costela",
+        "qtd": 1,
+        "value": 32.6,
+        "market_id": 50,
+        "category_id": 39,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 140,
+        "name": "File de frango",
+        "qtd": 1,
+        "value": 60.5,
+        "market_id": 50,
+        "category_id": 39,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 141,
+        "name": "Pão de forma",
+        "qtd": 1,
+        "value": 5.99,
+        "market_id": 50,
+        "category_id": 38,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 142,
+        "name": "Manteiga",
+        "qtd": 1,
+        "value": 10.9,
+        "market_id": 50,
+        "category_id": 38,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 143,
+        "name": "Aboboea",
+        "qtd": 1,
+        "value": 3.47,
+        "market_id": 50,
+        "category_id": 30,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 144,
+        "name": "Parmesão",
+        "qtd": 1,
+        "value": 5.99,
+        "market_id": 50,
+        "category_id": 38,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 145,
+        "name": "Chocolate",
+        "qtd": 2,
+        "value": 8.29,
+        "market_id": 50,
+        "category_id": 27,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 146,
+        "name": "Calabresa",
+        "qtd": 2,
+        "value": 12.54,
+        "market_id": 50,
+        "category_id": 39,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 147,
+        "name": "Mussarela",
+        "qtd": 1,
+        "value": 9,
+        "market_id": 50,
+        "category_id": 38,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 148,
+        "name": "Coentro",
+        "qtd": 1,
+        "value": 3.89,
+        "market_id": 50,
+        "category_id": 38,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 149,
+        "name": "Linguiça fina",
+        "qtd": 1,
+        "value": 14.28,
+        "market_id": 50,
+        "category_id": 39,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 150,
+        "name": "Creme de leite",
+        "qtd": 2,
+        "value": 2.85,
+        "market_id": 50,
+        "category_id": 38,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 151,
+        "name": "Pão e frios",
+        "qtd": 1,
+        "value": 20,
+        "market_id": 51,
+        "category_id": 40,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 152,
+        "name": "Cafe",
+        "qtd": 1,
+        "value": 11.5,
+        "market_id": 52,
+        "category_id": 40,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 153,
+        "name": "Tren",
+        "qtd": 2,
+        "value": 4.4,
+        "market_id": 53,
+        "category_id": 32,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 157,
+        "name": "Gasolina pro lucas",
+        "qtd": 1,
+        "value": 50,
+        "market_id": 54,
+        "category_id": 37,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 158,
+        "name": "Trem ida e volta",
+        "qtd": 2,
+        "value": 4.4,
+        "market_id": 55,
+        "category_id": 32,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 159,
+        "name": "Trem ida e volta",
+        "qtd": 2,
+        "value": 4.4,
+        "market_id": 56,
+        "category_id": 32,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 160,
+        "name": "Suco",
+        "qtd": 1,
+        "value": 5.6,
+        "market_id": 57,
+        "category_id": 31,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 161,
+        "name": "Chiclete",
+        "qtd": 1,
+        "value": 2.79,
+        "market_id": 58,
+        "category_id": 31,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 162,
+        "name": "Banana",
+        "qtd": 1,
+        "value": 1.62,
+        "market_id": 59,
+        "category_id": 31,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 163,
+        "name": "Sacola",
+        "qtd": 1,
+        "value": 0.12,
+        "market_id": 60,
+        "category_id": 31,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 164,
+        "name": "Ifood - poke",
+        "qtd": 1,
+        "value": 49,
+        "market_id": 61,
+        "category_id": 31,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 165,
+        "name": "Lanche da tarde- Plano PJ",
+        "qtd": 1,
+        "value": 14.06,
+        "market_id": 62,
+        "category_id": 31,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 166,
+        "name": "Vale transporte",
+        "qtd": 1,
+        "value": 44,
+        "market_id": 64,
+        "category_id": 56,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 167,
+        "name": "Salario",
+        "qtd": 1,
+        "value": 5300,
+        "market_id": 65,
+        "category_id": 57,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 168,
+        "name": "Transporte",
+        "qtd": 1,
+        "value": 1000,
+        "market_id": 66,
+        "category_id": 58,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 169,
+        "name": "Esfiha",
+        "qtd": 1,
+        "value": 70,
+        "market_id": 67,
+        "category_id": 31,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 170,
+        "name": "Mercado escondidinho",
+        "qtd": 1,
+        "value": 33.21,
+        "market_id": 68,
+        "category_id": 39,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 171,
+        "name": "Trem",
+        "qtd": 2,
+        "value": 4.4,
+        "market_id": 69,
+        "category_id": 33,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 172,
+        "name": "Presente mae",
+        "qtd": 1,
+        "value": 89.9,
+        "market_id": 70,
+        "category_id": 44,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 173,
+        "name": "Gasolina",
+        "qtd": 1,
+        "value": 50,
+        "market_id": 71,
+        "category_id": 37,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 174,
+        "name": "Ituran",
+        "qtd": 1,
+        "value": 199.32,
+        "market_id": 72,
+        "category_id": 59,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 175,
+        "name": "Gasolina",
+        "qtd": 1,
+        "value": 60,
+        "market_id": 73,
+        "category_id": 37,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 176,
+        "name": "Gasolina",
+        "qtd": 1,
+        "value": 100,
+        "market_id": 74,
+        "category_id": 37,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 177,
+        "name": "Brinquedo pet",
+        "qtd": 1,
+        "value": 28.9,
+        "market_id": 75,
+        "category_id": 34,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 178,
+        "name": "Luz da lua",
+        "qtd": 1,
+        "value": 60,
+        "market_id": 76,
+        "category_id": 31,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 179,
+        "name": "Acai",
+        "qtd": 1,
+        "value": 20,
+        "market_id": 77,
+        "category_id": 31,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 180,
+        "name": "Sorvete",
+        "qtd": 1,
+        "value": 6,
+        "market_id": 77,
+        "category_id": 31,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 181,
+        "name": "Cartão xp",
+        "qtd": 1,
+        "value": 3159.68,
+        "market_id": 78,
+        "category_id": 60,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 182,
+        "name": "Flash",
+        "qtd": 1,
+        "value": 500,
+        "market_id": 79,
+        "category_id": 61,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 183,
+        "name": "Flash",
+        "qtd": 1,
+        "value": 150,
+        "market_id": 80,
+        "category_id": 62,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 184,
+        "name": "Gasolina",
+        "qtd": 1,
+        "value": 100,
+        "market_id": 81,
+        "category_id": 37,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 185,
+        "name": "Lanche",
+        "qtd": 1,
+        "value": 7.5,
+        "market_id": 83,
+        "category_id": 31,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 186,
+        "name": "Óculos",
+        "qtd": 1,
+        "value": 99.99,
+        "market_id": 84,
+        "category_id": 44,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 187,
+        "name": "Lâmpada carro",
+        "qtd": 1,
+        "value": 40,
+        "market_id": 85,
+        "category_id": 63,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 188,
+        "name": "Mensalidade academia",
+        "qtd": 1,
+        "value": 130,
+        "market_id": 86,
+        "category_id": 64,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 189,
+        "name": "Mercado",
+        "qtd": 1,
+        "value": 19.92,
+        "market_id": 87,
+        "category_id": 31,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 226,
+        "name": "Café",
+        "qtd": 1,
+        "value": 29.22,
+        "market_id": 89,
+        "category_id": 31,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 227,
+        "name": "Pastel",
+        "qtd": 1,
+        "value": 16,
+        "market_id": 90,
+        "category_id": 31,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 228,
+        "name": "Manoel barreiro",
+        "qtd": 1,
+        "value": 112.28,
+        "market_id": 91,
+        "category_id": 31,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 229,
+        "name": "Sal",
+        "qtd": 1,
+        "value": 2.59,
+        "market_id": 92,
+        "category_id": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 230,
+        "name": "Cookies",
+        "qtd": 1,
+        "value": 3.39,
+        "market_id": 92,
+        "category_id": 27,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 231,
+        "name": "Chocolate",
+        "qtd": 1,
+        "value": 6.99,
+        "market_id": 92,
+        "category_id": 27,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 232,
+        "name": "Cookies",
+        "qtd": 1,
+        "value": 3.39,
+        "market_id": 92,
+        "category_id": 27,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 233,
+        "name": "Chocolate",
+        "qtd": 1,
+        "value": 2.99,
+        "market_id": 92,
+        "category_id": 27,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 234,
+        "name": "Chocolate",
+        "qtd": 1,
+        "value": 8.99,
+        "market_id": 92,
+        "category_id": 27,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 235,
+        "name": "Chocolate",
+        "qtd": 1,
+        "value": 6.39,
+        "market_id": 92,
+        "category_id": 27,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 236,
+        "name": "Churros",
+        "qtd": 1,
+        "value": 10,
+        "market_id": 93,
+        "category_id": 27,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 237,
+        "name": "Remédio",
+        "qtd": 1,
+        "value": 34.88,
+        "market_id": 94,
+        "category_id": 53,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 238,
+        "name": "Panificadora vila Cintra",
+        "qtd": 1,
+        "value": 22.26,
+        "market_id": 95,
+        "category_id": 31,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 239,
+        "name": "Burguer king",
+        "qtd": 1,
+        "value": 55.9,
+        "market_id": 96,
+        "category_id": 31,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 240,
+        "name": "Chip vivo",
+        "qtd": 1,
+        "value": 13,
+        "market_id": 97,
+        "category_id": 44,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 241,
+        "name": "Estacionamento shopping",
+        "qtd": 1,
+        "value": 10,
+        "market_id": 98,
+        "category_id": 44,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 242,
+        "name": "Lanche",
+        "qtd": 1,
+        "value": 20,
+        "market_id": 99,
+        "category_id": 31,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 243,
+        "name": "Doces",
+        "qtd": 1,
+        "value": 28.93,
+        "market_id": 100,
+        "category_id": 27,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 244,
+        "name": "Panificadora",
+        "qtd": 1,
+        "value": 4.39,
+        "market_id": 101,
+        "category_id": 31,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 245,
+        "name": "Banho snoopy",
+        "qtd": 1,
+        "value": 65,
+        "market_id": 102,
+        "category_id": 35,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 246,
+        "name": "Compra de processador- 01/02",
+        "qtd": 1,
+        "value": 64.26,
+        "market_id": 103,
+        "category_id": 66,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 247,
+        "name": "Seguro carro",
+        "qtd": 1,
+        "value": 199.32,
+        "market_id": 104,
+        "category_id": 59,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 248,
+        "name": "Ifood clube",
+        "qtd": 1,
+        "value": 4.95,
+        "market_id": 105,
+        "category_id": 44,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 249,
+        "name": "Estacionamento",
+        "qtd": 1,
+        "value": 5,
+        "market_id": 106,
+        "category_id": 63,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 250,
+        "name": "Trem",
+        "qtd": 1,
+        "value": 4.4,
+        "market_id": 107,
+        "category_id": 33,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 251,
+        "name": "Rap 10",
+        "qtd": 1,
+        "value": 9.98,
+        "market_id": 108,
+        "category_id": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 252,
+        "name": "Cookie",
+        "qtd": 1,
+        "value": 3.49,
+        "market_id": 108,
+        "category_id": 27,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 253,
+        "name": "Prestigio",
+        "qtd": 1,
+        "value": 3.49,
+        "market_id": 108,
+        "category_id": 27,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 254,
+        "name": "Chocolate",
+        "qtd": 1,
+        "value": 9.99,
+        "market_id": 108,
+        "category_id": 27,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 255,
+        "name": "Queijo",
+        "qtd": 1,
+        "value": 8.8,
+        "market_id": 108,
+        "category_id": 29,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 256,
+        "name": "Papel toalha",
+        "qtd": 1,
+        "value": 9.9,
+        "market_id": 109,
+        "category_id": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 257,
+        "name": "Papel higiênico",
+        "qtd": 1,
+        "value": 23.9,
+        "market_id": 109,
+        "category_id": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 258,
+        "name": "Papel reutilizável",
+        "qtd": 1,
+        "value": 14.9,
+        "market_id": 109,
+        "category_id": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 259,
+        "name": "Pão",
+        "qtd": 2,
+        "value": 4.99,
+        "market_id": 109,
+        "category_id": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 260,
+        "name": "Feijão",
+        "qtd": 1,
+        "value": 4.99,
+        "market_id": 109,
+        "category_id": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 261,
+        "name": "Macarrão",
+        "qtd": 2,
+        "value": 4.29,
+        "market_id": 109,
+        "category_id": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 262,
+        "name": "Limão",
+        "qtd": 1,
+        "value": 3,
+        "market_id": 109,
+        "category_id": 28,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 263,
+        "name": "Molho de tomate",
+        "qtd": 2,
+        "value": 3.19,
+        "market_id": 109,
+        "category_id": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 264,
+        "name": "Queijo parmesão",
+        "qtd": 1,
+        "value": 5.99,
+        "market_id": 109,
+        "category_id": 29,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 265,
+        "name": "Filtro de papel",
+        "qtd": 1,
+        "value": 3.55,
+        "market_id": 109,
+        "category_id": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 266,
+        "name": "Sabão em barra",
+        "qtd": 1,
+        "value": 10.9,
+        "market_id": 109,
+        "category_id": 36,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 267,
+        "name": "Abacate",
+        "qtd": 1,
+        "value": 4.66,
+        "market_id": 109,
+        "category_id": 28,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 268,
+        "name": "Kiwi",
+        "qtd": 1,
+        "value": 6.21,
+        "market_id": 109,
+        "category_id": 28,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 269,
+        "name": "Alcool",
+        "qtd": 1,
+        "value": 6.99,
+        "market_id": 109,
+        "category_id": 36,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 270,
+        "name": "Laranja",
+        "qtd": 1,
+        "value": 2.06,
+        "market_id": 109,
+        "category_id": 28,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 271,
+        "name": "Ameixa seca",
+        "qtd": 1,
+        "value": 12.5,
+        "market_id": 109,
+        "category_id": 28,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 272,
+        "name": "Cafe",
+        "qtd": 2,
+        "value": 16.49,
+        "market_id": 109,
+        "category_id": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 273,
+        "name": "Tomate",
+        "qtd": 1,
+        "value": 5.7,
+        "market_id": 109,
+        "category_id": 30,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 274,
+        "name": "Esponja",
+        "qtd": 1,
+        "value": 7.19,
+        "market_id": 109,
+        "category_id": 36,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 275,
+        "name": "Atum",
+        "qtd": 1,
+        "value": 6.45,
+        "market_id": 109,
+        "category_id": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 276,
+        "name": "Brócolis",
+        "qtd": 1,
+        "value": 5.99,
+        "market_id": 109,
+        "category_id": 30,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 277,
+        "name": "Lysoform",
+        "qtd": 1,
+        "value": 14.75,
+        "market_id": 109,
+        "category_id": 36,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 278,
+        "name": "Pimenta cambuci",
+        "qtd": 1,
+        "value": 8.49,
+        "market_id": 109,
+        "category_id": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 279,
+        "name": "Oleo",
+        "qtd": 1,
+        "value": 5.39,
+        "market_id": 109,
+        "category_id": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 280,
+        "name": "Chocolate",
+        "qtd": 1,
+        "value": 2.99,
+        "market_id": 109,
+        "category_id": 27,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 281,
+        "name": "Pepino japones",
+        "qtd": 1,
+        "value": 1.33,
+        "market_id": 109,
+        "category_id": 30,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 282,
+        "name": "Chocolate",
+        "qtd": 1,
+        "value": 2.99,
+        "market_id": 109,
+        "category_id": 27,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 283,
+        "name": "Sabonete",
+        "qtd": 3,
+        "value": 2.09,
+        "market_id": 109,
+        "category_id": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 284,
+        "name": "Sabonte",
+        "qtd": 2,
+        "value": 2.09,
+        "market_id": 109,
+        "category_id": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 285,
+        "name": "Beterraba",
+        "qtd": 1,
+        "value": 0.8,
+        "market_id": 109,
+        "category_id": 30,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 286,
+        "name": "Manga",
+        "qtd": 1,
+        "value": 6.92,
+        "market_id": 109,
+        "category_id": 28,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 287,
+        "name": "Alho",
+        "qtd": 1,
+        "value": 10.49,
+        "market_id": 109,
+        "category_id": 30,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 288,
+        "name": "Cha",
+        "qtd": 1,
+        "value": 8.65,
+        "market_id": 109,
+        "category_id": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 289,
+        "name": "Pastilha sanitária",
+        "qtd": 1,
+        "value": 4.19,
+        "market_id": 109,
+        "category_id": 36,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 290,
+        "name": "Blueberries",
+        "qtd": 1,
+        "value": 8.99,
+        "market_id": 109,
+        "category_id": 28,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 291,
+        "name": "Detergente",
+        "qtd": 1,
+        "value": 2.49,
+        "market_id": 109,
+        "category_id": 36,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 292,
+        "name": "Absorvente",
+        "qtd": 1,
+        "value": 7.49,
+        "market_id": 109,
+        "category_id": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 293,
+        "name": "Açúcar",
+        "qtd": 1,
+        "value": 3.95,
+        "market_id": 109,
+        "category_id": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 294,
+        "name": "Alface",
+        "qtd": 1,
+        "value": 1.99,
+        "market_id": 109,
+        "category_id": 30,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 296,
+        "name": "Costela suína",
+        "qtd": 1,
+        "value": 25.89,
+        "market_id": 109,
+        "category_id": 39,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 300,
+        "name": "Vale refeição",
+        "qtd": 1,
+        "value": 150,
+        "market_id": 113,
+        "category_id": 62,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 295,
+        "name": "Ovos",
+        "qtd": 1,
+        "value": 18.9,
+        "market_id": 109,
+        "category_id": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 297,
+        "name": "Espeto kafta",
+        "qtd": 1,
+        "value": 39.98,
+        "market_id": 109,
+        "category_id": 39,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 298,
+        "name": "Padaria",
+        "qtd": 1,
+        "value": 12.23,
+        "market_id": 110,
+        "category_id": 31,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 299,
+        "name": "Vale alimentação",
+        "qtd": 1,
+        "value": 500,
+        "market_id": 112,
+        "category_id": 61,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 301,
+        "name": "Lysoform",
+        "qtd": 2,
+        "value": 13.99,
+        "market_id": 114,
+        "category_id": 36,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 302,
+        "name": "Lindt - presente Katia",
+        "qtd": 1,
+        "value": 82.9,
+        "market_id": 115,
+        "category_id": 44,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 303,
+        "name": "Despedida Letícia",
+        "qtd": 1,
+        "value": 47.3,
+        "market_id": 116,
+        "category_id": 44,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 304,
+        "name": "Uber",
+        "qtd": 1,
+        "value": 19.99,
+        "market_id": 117,
+        "category_id": 32,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 305,
+        "name": "Presente Letícia",
+        "qtd": 1,
+        "value": 154.05,
+        "market_id": 118,
+        "category_id": 44,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 306,
+        "name": "Yeesco 01/04",
+        "qtd": 1,
+        "value": 17.04,
+        "market_id": 119,
+        "category_id": 68,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 307,
+        "name": "Cafe",
+        "qtd": 1,
+        "value": 12.79,
+        "market_id": 120,
+        "category_id": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 308,
+        "name": "Seguro celular",
+        "qtd": 1,
+        "value": 50.5,
+        "market_id": 121,
+        "category_id": 67,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 309,
+        "name": "Shein",
+        "qtd": 1,
+        "value": 20.99,
+        "market_id": 122,
+        "category_id": 68,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 310,
+        "name": "Glambox",
+        "qtd": 1,
+        "value": 59.56,
+        "market_id": 123,
+        "category_id": 69,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 311,
+        "name": "Hashtag",
+        "qtd": 1,
+        "value": 58.16,
+        "market_id": 124,
+        "category_id": 70,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 312,
+        "name": "Tapete higiênico",
+        "qtd": 1,
+        "value": 37.97,
+        "market_id": 125,
+        "category_id": 34,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 313,
+        "name": "Shein",
+        "qtd": 1,
+        "value": 20.03,
+        "market_id": 126,
+        "category_id": 68,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 314,
+        "name": "Celular 05/10",
+        "qtd": 1,
+        "value": 338.18,
+        "market_id": 127,
+        "category_id": 67,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 315,
+        "name": "Tênis 2/5",
+        "qtd": 1,
+        "value": 56.77,
+        "market_id": 128,
+        "category_id": 45,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 316,
+        "name": "Shein",
+        "qtd": 1,
+        "value": 15.99,
+        "market_id": 129,
+        "category_id": 68,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 317,
+        "name": "Trem",
+        "qtd": 2,
+        "value": 4.4,
+        "market_id": 130,
+        "category_id": 32,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 318,
+        "name": "Shein",
+        "qtd": 1,
+        "value": 40.52,
+        "market_id": 131,
+        "category_id": 68,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 319,
+        "name": "Fio dental",
+        "qtd": 1,
+        "value": 27.54,
+        "market_id": 132,
+        "category_id": 71,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 320,
+        "name": "Shein",
+        "qtd": 1,
+        "value": 24.5,
+        "market_id": 133,
+        "category_id": 68,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 321,
+        "name": "Shein",
+        "qtd": 1,
+        "value": 18.87,
+        "market_id": 134,
+        "category_id": 68,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 322,
+        "name": "Mercado",
+        "qtd": 1,
+        "value": 19.92,
+        "market_id": 88,
+        "category_id": 31,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 323,
+        "name": "Brocolis",
+        "qtd": 1,
+        "value": 4.79,
+        "market_id": 88,
+        "category_id": 30,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 324,
+        "name": "Laranja",
+        "qtd": 1,
+        "value": 1.15,
+        "market_id": 88,
+        "category_id": 28,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 325,
+        "name": "Manga",
+        "qtd": 1,
+        "value": 4.89,
+        "market_id": 88,
+        "category_id": 28,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 326,
+        "name": "Pepino japones",
+        "qtd": 1,
+        "value": 2.44,
+        "market_id": 88,
+        "category_id": 30,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 327,
+        "name": "Abacate",
+        "qtd": 1,
+        "value": 2.35,
+        "market_id": 88,
+        "category_id": 28,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 328,
+        "name": "Tomate",
+        "qtd": 1,
+        "value": 7.55,
+        "market_id": 88,
+        "category_id": 30,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 329,
+        "name": "Tomatinho",
+        "qtd": 1,
+        "value": 2.85,
+        "market_id": 88,
+        "category_id": 30,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 330,
+        "name": "Batata",
+        "qtd": 1,
+        "value": 6.9,
+        "market_id": 88,
+        "category_id": 30,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 331,
+        "name": "Uva",
+        "qtd": 1,
+        "value": 6.99,
+        "market_id": 88,
+        "category_id": 28,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 332,
+        "name": "Chuleta bovina",
+        "qtd": 1,
+        "value": 16.56,
+        "market_id": 88,
+        "category_id": 39,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 333,
+        "name": "Cif limpa limo",
+        "qtd": 1,
+        "value": 14.9,
+        "market_id": 88,
+        "category_id": 36,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 334,
+        "name": "Cafe",
+        "qtd": 1,
+        "value": 17.65,
+        "market_id": 88,
+        "category_id": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 335,
+        "name": "Não identificado",
+        "qtd": 1,
+        "value": 17.99,
+        "market_id": 88,
+        "category_id": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 336,
+        "name": "Alface",
+        "qtd": 1,
+        "value": 1.99,
+        "market_id": 88,
+        "category_id": 30,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 337,
+        "name": "Molho de tomate",
+        "qtd": 3,
+        "value": 2.65,
+        "market_id": 88,
+        "category_id": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 338,
+        "name": "Creme de ricota",
+        "qtd": 1,
+        "value": 8.29,
+        "market_id": 88,
+        "category_id": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 339,
+        "name": "Creme de leite",
+        "qtd": 1,
+        "value": 2.79,
+        "market_id": 88,
+        "category_id": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 340,
+        "name": "Leite",
+        "qtd": 1,
+        "value": 3.99,
+        "market_id": 88,
+        "category_id": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 341,
+        "name": "Tempero Edu guedes",
+        "qtd": 1,
+        "value": 2.88,
+        "market_id": 88,
+        "category_id": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 342,
+        "name": "Tempero pega marido",
+        "qtd": 1,
+        "value": 3.84,
+        "market_id": 88,
+        "category_id": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 343,
+        "name": "Tempero chimichurri",
+        "qtd": 1,
+        "value": 3.63,
+        "market_id": 88,
+        "category_id": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 344,
+        "name": "Músculo",
+        "qtd": 1,
+        "value": 21.92,
+        "market_id": 88,
+        "category_id": 39,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 345,
+        "name": "Tempero chef",
+        "qtd": 1,
+        "value": 5.56,
+        "market_id": 88,
+        "category_id": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 346,
+        "name": "Iogurte",
+        "qtd": 1,
+        "value": 3.99,
+        "market_id": 88,
+        "category_id": 42,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 347,
+        "name": "Ketchup",
+        "qtd": 1,
+        "value": 8.5,
+        "market_id": 88,
+        "category_id": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 348,
+        "name": "Limão",
+        "qtd": 1,
+        "value": 2.99,
+        "market_id": 88,
+        "category_id": 28,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 349,
+        "name": "Músculo",
+        "qtd": 1,
+        "value": 21.6,
+        "market_id": 88,
+        "category_id": 39,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 350,
+        "name": "Pão",
+        "qtd": 1,
+        "value": 5.99,
+        "market_id": 88,
+        "category_id": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 351,
+        "name": "Não identificado",
+        "qtd": 1,
+        "value": 5.95,
+        "market_id": 88,
+        "category_id": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 352,
+        "name": "Mostarda",
+        "qtd": 1,
+        "value": 5.99,
+        "market_id": 88,
+        "category_id": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 353,
+        "name": "Macarrão",
+        "qtd": 1,
+        "value": 3.99,
+        "market_id": 88,
+        "category_id": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 354,
+        "name": "Papel toalha",
+        "qtd": 1,
+        "value": 7.5,
+        "market_id": 88,
+        "category_id": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 355,
+        "name": "Iogurte",
+        "qtd": 1,
+        "value": 8.99,
+        "market_id": 88,
+        "category_id": 42,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 356,
+        "name": "Pizza",
+        "qtd": 1,
+        "value": 43.98,
+        "market_id": 88,
+        "category_id": 31,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 357,
+        "name": "Picole",
+        "qtd": 1,
+        "value": 7.99,
+        "market_id": 88,
+        "category_id": 27,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 358,
+        "name": "Ovos",
+        "qtd": 1,
+        "value": 17.89,
+        "market_id": 88,
+        "category_id": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 359,
+        "name": "Dentista",
+        "qtd": 1,
+        "value": 93.34,
+        "market_id": 135,
+        "category_id": 72,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 360,
+        "name": "Trem ida e volta",
+        "qtd": 2,
+        "value": 4.4,
+        "market_id": 136,
+        "category_id": 32,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 361,
+        "name": "Trem ida e volta",
+        "qtd": 2,
+        "value": 4.4,
+        "market_id": 137,
+        "category_id": 32,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 362,
+        "name": "Lanche Plano pj",
+        "qtd": 1,
+        "value": 12.65,
+        "market_id": 138,
+        "category_id": 31,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 363,
+        "name": "Trem ida e volta",
+        "qtd": 2,
+        "value": 4.4,
+        "market_id": 139,
+        "category_id": 32,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 364,
+        "name": "Sorvete palito oggi",
+        "qtd": 1,
+        "value": 21.75,
+        "market_id": 140,
+        "category_id": 31,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 365,
+        "name": "Trem ida e volta",
+        "qtd": 2,
+        "value": 4.4,
+        "market_id": 141,
+        "category_id": 32,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 366,
+        "name": "Lanche Plano pj",
+        "qtd": 1,
+        "value": 10.18,
+        "market_id": 142,
+        "category_id": 31,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 367,
+        "name": "Absorvente",
+        "qtd": 1,
+        "value": 17,
+        "market_id": 143,
+        "category_id": 71,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 368,
+        "name": "Floral",
+        "qtd": 1,
+        "value": 30,
+        "market_id": 144,
+        "category_id": 44,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 369,
+        "name": "Vale transporte- plano pj",
+        "qtd": 1,
+        "value": 35.2,
+        "market_id": 145,
+        "category_id": 56,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 371,
+        "name": "Vale refeição- flash",
+        "qtd": 1,
+        "value": 120,
+        "market_id": 147,
+        "category_id": 62,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 370,
+        "name": "Vale alimentação- flash",
+        "qtd": 1,
+        "value": 500,
+        "market_id": 146,
+        "category_id": 61,
+        "user_id": 2,
+        "organization_id": 1
+    }
+]

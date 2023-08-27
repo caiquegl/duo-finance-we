@@ -1,0 +1,378 @@
+[
+    {
+        "id": 49,
+        "name": "Aluguel",
+        "is_primary": false,
+        "sub_category": 48,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 50,
+        "name": "Internet",
+        "is_primary": false,
+        "sub_category": 48,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 51,
+        "name": "Luz",
+        "is_primary": false,
+        "sub_category": 48,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 37,
+        "name": "Gasolina",
+        "is_primary": false,
+        "sub_category": 32,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 62,
+        "name": "Vale refeição",
+        "is_primary": false,
+        "sub_category": 43,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 45,
+        "name": "Tênis",
+        "is_primary": false,
+        "sub_category": 44,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 33,
+        "name": "Passagem",
+        "is_primary": false,
+        "sub_category": 32,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 52,
+        "name": "Financiamento",
+        "is_primary": false,
+        "sub_category": 32,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 41,
+        "name": "Refrigerante",
+        "is_primary": false,
+        "sub_category": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 58,
+        "name": "Vale transporte caique",
+        "is_primary": false,
+        "sub_category": 57,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 43,
+        "name": "Alana - Salários",
+        "is_primary": true,
+        "sub_category": "",
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 34,
+        "name": "Cachorro",
+        "is_primary": true,
+        "sub_category": "",
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 57,
+        "name": "Caique - salario",
+        "is_primary": true,
+        "sub_category": "",
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 54,
+        "name": "Convênio",
+        "is_primary": false,
+        "sub_category": 53,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 63,
+        "name": "Carro",
+        "is_primary": true,
+        "sub_category": "",
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 38,
+        "name": "Cozinha",
+        "is_primary": false,
+        "sub_category": 26,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 60,
+        "name": "Cartão de crédito caique",
+        "is_primary": true,
+        "sub_category": "",
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 55,
+        "name": "Cartão de crédito- Fatura",
+        "is_primary": true,
+        "sub_category": "",
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 48,
+        "name": "Casa",
+        "is_primary": true,
+        "sub_category": "",
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 42,
+        "name": "Iogurte",
+        "is_primary": false,
+        "sub_category": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 44,
+        "name": "Despesa variável",
+        "is_primary": true,
+        "sub_category": "",
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 46,
+        "name": "Lazer",
+        "is_primary": true,
+        "sub_category": "",
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 26,
+        "name": "Mercado",
+        "is_primary": true,
+        "sub_category": "",
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 40,
+        "name": "Padaria",
+        "is_primary": true,
+        "sub_category": "",
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 39,
+        "name": "Mistura",
+        "is_primary": false,
+        "sub_category": 26,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 31,
+        "name": "Refeição",
+        "is_primary": true,
+        "sub_category": "",
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 61,
+        "name": "Vale alimentação",
+        "is_primary": false,
+        "sub_category": 43,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 35,
+        "name": "Banho",
+        "is_primary": false,
+        "sub_category": 34,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 27,
+        "name": "Doces",
+        "is_primary": false,
+        "sub_category": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 28,
+        "name": "Frutas",
+        "is_primary": false,
+        "sub_category": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 29,
+        "name": "Frios",
+        "is_primary": false,
+        "sub_category": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 30,
+        "name": "Legumes",
+        "is_primary": false,
+        "sub_category": 26,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 56,
+        "name": "Vale transporte",
+        "is_primary": false,
+        "sub_category": 43,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 59,
+        "name": "Seguro",
+        "is_primary": false,
+        "sub_category": 32,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 36,
+        "name": "Produto limpeza",
+        "is_primary": false,
+        "sub_category": 26,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 47,
+        "name": "Streaming",
+        "is_primary": false,
+        "sub_category": 46,
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 64,
+        "name": "Academia",
+        "is_primary": false,
+        "sub_category": 53,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 66,
+        "name": "Compra de utensílios",
+        "is_primary": false,
+        "sub_category": 65,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 68,
+        "name": "Roupas",
+        "is_primary": false,
+        "sub_category": 67,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 69,
+        "name": "Cosméticos",
+        "is_primary": false,
+        "sub_category": 67,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 70,
+        "name": "Cursos",
+        "is_primary": false,
+        "sub_category": 67,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 67,
+        "name": "Alana",
+        "is_primary": true,
+        "sub_category": "",
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 65,
+        "name": "Cozinha",
+        "is_primary": true,
+        "sub_category": "",
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 53,
+        "name": "Saude",
+        "is_primary": true,
+        "sub_category": "",
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 32,
+        "name": "Transporte",
+        "is_primary": true,
+        "sub_category": "",
+        "user_id": 1,
+        "organization_id": 1
+    },
+    {
+        "id": 71,
+        "name": "Higiene pessoal",
+        "is_primary": false,
+        "sub_category": 67,
+        "user_id": 2,
+        "organization_id": 1
+    },
+    {
+        "id": 72,
+        "name": "Dentista",
+        "is_primary": false,
+        "sub_category": 67,
+        "user_id": 2,
+        "organization_id": 1
+    }
+]

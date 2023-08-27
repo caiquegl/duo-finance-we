@@ -1,0 +1,143 @@
+.table-row {
+    background-color: #252E30;
+    color:  #fff;
+}
+
+.ant-table-wrapper .ant-table-container table>thead>tr:first-child >*:first-child{
+    background-color: #252E30;
+    border-top-left-radius: 0 !important;
+}
+
+.ant-table-cell {
+    background-color: #252E30 !important;
+}
+
+.ant-table-row-expand-icon {
+    background-color: #252E30 !important;
+    border-color: #565959 !important ;
+    color: #565959 !important;
+}
+
+.ant-table-wrapper .ant-table-container table>thead>tr:first-child >*:last-child {
+    border-start-end-radius: 0 !important;
+}
+
+.ant-table-wrapper .ant-table-container table>thead>tr {
+    font-size: 16px;
+}
+
+.ant-table-tbody >tr.ant-table-row:hover>td {
+    background: #254138 !important;
+    transition: all 0.3s;
+}
+
+.ant-table-cell {
+    border-color: #565959 !important;
+}
+
+.ant-table-thead > tr > th{
+    color: #AAA !important;
+    background-color: #252E30 !important;
+}
+
+.ant-table-thead > tr > th::before{
+    background-color: transparent !important;
+}
+
+.ant-pagination-total-text {
+    color: #AAA;
+}
+
+.ant-pagination-item-link {
+    color: #aaa !important;
+}
+
+.ant-pagination-item-active {
+    border: none !important;
+    color: #aaa !important;
+    background-color: #354043 !important;
+}
+
+.ant-pagination-item a {
+    color: #aaa !important;
+}
+
+.ant-pagination-item-active a {
+    color: #aaa !important;
+}
+
+.ant-select-selector {
+    background-color: #354043 !important;
+    border-radius: 4px !important;
+    border: none !important;
+}
+
+.ant-select-show-arrow .ant-select-selection-item {
+    color: #aaa !important;
+}
+
+.ant-select .ant-select-arrow {
+    color: #aaa !important;
+}
+
+.ant-table-wrapper .ant-table-container table>thead>tr:first-child >*:first-child {
+    border-radius: 0;
+}
+
+.ant-table-wrapper .ant-table-container table>thead>tr:first-child >*:last-child {
+    border-radius: 0;
+}
+
+ .ant-picker .ant-picker-input > input  {
+    color: #AAA !important;
+}
+
+.ant-picker-separator {
+    color: #AAA !important;
+}
+
+.ant-picker-clear {
+    color: #AAA !important;
+    background: transparent !important;
+}
+
+.ant-picker-suffix {
+    color: #AAA !important; 
+}
+
+.ant-picker-panels {
+    background: #2D3639 !important;
+    color: #AAA !important; 
+}
+
+.ant-picker-dropdown .ant-picker-range-arrow::before {
+    background: #2D3639 !important;
+}
+
+.ant-picker-header-super-prev-btn, .ant-picker-header-prev-btn, .ant-picker-header-view, .ant-picker-header-next-btn, .ant-picker-header-super-next-btn, tr > th {
+    color: #fff !important;
+}
+
+.ant-picker-dropdown .ant-picker-cell {
+    color: #565959 !important;
+}
+
+.ant-picker-dropdown .ant-picker-cell-in-view {
+    color: #fff !important;
+}
+
+.ant-picker-cell-in-range .ant-picker-cell-inner {
+    color: #FF9C21 !important;
+}
+
+.ant-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-in-range::before, .ant-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-range-start:not(.ant-picker-cell-range-start-single)::before, .ant-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-range-end:not(.ant-picker-cell-range-end-single)::before {
+    background-color: #32554A !important;
+}
+
+.ant-picker-cell-range-start .ant-picker-cell-inner {
+    background-color: green !important;
+}
+
+.ant-picker-cell-range-end .ant-picker-cell-inner {
+    background-color: green !important;
+}
