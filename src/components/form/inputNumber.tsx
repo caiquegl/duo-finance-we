@@ -36,7 +36,7 @@ const InputBase = ({
   inputRightElement,
   control,
   ...rest
-}: IProps) => {
+}: any) => {
   return (
     <Controller
       control={control}
@@ -66,7 +66,9 @@ const InputBase = ({
                 ref={ref}
                 name={name}
                 valueAsNumber={value}
-                onChange={(value, valueAsNumber) => onChange(valueAsNumber)}
+                onChange={(value: any, valueAsNumber: any) =>
+                  onChange(valueAsNumber)
+                }
                 placeholder={`${label}`}
                 _hover={{ borderColor: "green.200" }}
                 bg="green.700"
