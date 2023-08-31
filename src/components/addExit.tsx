@@ -5,6 +5,7 @@ import { HookSelect } from "./form/select";
 import { RiSubtractLine } from "react-icons/ri";
 import { Center, Icon } from "@chakra-ui/react";
 import { HookInputNumber } from "./form/inputNumber";
+import { HookSearch } from "./form/search";
 
 interface IProps {
   categ: any;
@@ -50,12 +51,12 @@ const AddExit = ({ categ, errors, register, control, index, sub }: IProps) => {
         />
       </Col>
       <Col span={6}>
-        <HookSelect
+        <HookSearch
           control={control}
-          name={`category-${index}`}
           label="Categoria"
+          name={`category-${index}`}
           visibleLabel={true}
-          opt={categ}
+          path="categories"
         />
       </Col>
       <Col span={1}>

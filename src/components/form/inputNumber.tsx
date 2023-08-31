@@ -65,6 +65,7 @@ const InputBase = ({
                 id={name}
                 ref={ref}
                 name={name}
+                w="100%"
                 valueAsNumber={value}
                 onChange={(value: any, valueAsNumber: any) =>
                   onChange(valueAsNumber)

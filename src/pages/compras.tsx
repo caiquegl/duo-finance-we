@@ -177,6 +177,7 @@ const Saidas = () => {
     setList([{ id: 1 }]);
     getCards();
   };
+  
   useEffect(() => {
     listExits();
     getOpt();

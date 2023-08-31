@@ -141,3 +141,28 @@
 .ant-picker-cell-range-end .ant-picker-cell-inner {
     background-color: green !important;
 }
+
+.selectSearch {
+    z-index: 9999999999999999999 !important;
+    background-color: #354043;
+}
+
+.ant-select-dropdown .ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+    background-color: green !important;   
+}
+
+.ant-select-item-option-content {
+    color: #fff !important;
+}
+
+.ctnSelectSearch {
+    color: white;
+    height: 2.5rem !important;
+    border-radius: 2px !important;
+}
+
+.ctnSelectSearch .ant-select-selector {
+    color: white;
+    height: 2.5rem !important;
+    border-radius: 2px !important;
+}
