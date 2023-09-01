@@ -171,6 +171,7 @@ const Default = ({ children, title }: IProps) => {
             bg={isActive("/categorias") ? "orange.500" : "none"}
             w="100%"
             h="60px"
+            onClick={() => router.push("categoria")}
             alignItems="center"
             justifyContent="center"
             _hover={{
