@@ -14,13 +14,27 @@ export default async function GetExits(req: NextApiRequest, res: NextApiResponse
         let organization: any = {}
         if (req.cookies["nextAuth.duoFinanceOrganization"]) organization = JSON.parse(req.cookies["nextAuth.duoFinanceOrganization"])
 
-        const totalValue = req.body.products.reduce((accumulator: any, currentValue: any) => {
+        let totalValue = req.body.products.reduce((accumulator: any, currentValue: any) => {
             return accumulator + currentValue.value;
         }, 0);
 
+        const criarArrayComPosicoes = (numeroDePosicoes: number) => {
+            if (numeroDePosicoes <= 0) {
+                return []; // Retorna um array vazio se o número de posições for menor ou igual a zero
+            }
+
+            return Array.from({ length: numeroDePosicoes }, (_, index) => index + 1);
+        }
+
+        const parcelament = req.body.parcelament
+
+        if (parcelament && parcelament > 1) {
+            totalValue = totalValue / parcelament
+        }
+
         const market = await knex('markets').insert({
             date: moment(req.body.date).format('YYYY-MM-DD'),
-            market: req.body.market,
+            market: `${req.body.market}${parcelament && parcelament > 1 ? ` 1/${parcelament}` : ''}`,
             total: totalValue.toLocaleString("pt-BR", {
                 style: "currency",
                 currency: "BRL",
@@ -29,8 +43,30 @@ export default async function GetExits(req: NextApiRequest, res: NextApiResponse
             type_payment: req.body.type_payment,
             user_id: user.id,
             organization_id: organization.id,
-            credit_cards_id: req.body.type_payment == 'Crédito' ? req.body.credit_cards_id : null
+            credit_cards_id: req.body.type_payment == 'Crédito' ? req.body.credit_cards_id : null,
+            parcelament: parcelament || null,
+            initial_market_id: null
         }).returning("id")
+
+        if (parcelament && parcelament > 1) {
+            for await (const [index, item] of criarArrayComPosicoes(parcelament - 1).entries()) {
+                await knex('markets').insert({
+                    date: moment(req.body.date).add('M', index + 1).format('YYYY-MM-DD'),
+                    market: `${req.body.market}${` ${index + 2}/${parcelament}`}`,
+                    total: totalValue.toLocaleString("pt-BR", {
+                        style: "currency",
+                        currency: "BRL",
+                    }),
+                    type: 'exit',
+                    type_payment: req.body.type_payment,
+                    user_id: user.id,
+                    organization_id: organization.id,
+                    credit_cards_id: req.body.type_payment == 'Crédito' ? req.body.credit_cards_id : null,
+                    parcelament: parcelament || null,
+                    initial_market_id: market[0].id
+                })
+            }
+        }
 
         console.log(market)
 

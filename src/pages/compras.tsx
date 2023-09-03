@@ -7,8 +7,7 @@ import {
   Text,
   VStack,
 } from "@chakra-ui/react";
-import React, { useEffect, useState } from "react";
-import Image from "next/image";
+import React, { useEffect, useRef, useState } from "react";
 import { BiChevronRight } from "react-icons/bi";
 import { AiOutlineArrowDown } from "react-icons/ai";
 import { DataTable } from "@/components/dataTable";
@@ -26,6 +25,7 @@ import { useForm } from "react-hook-form";
 import AddExit from "@/components/addExit";
 import { HookInput } from "@/components/form/input";
 import { HookSelect } from "@/components/form/select";
+import * as XLSX from "xlsx";
 
 const { RangePicker } = DatePicker;
 dayjs.extend(customParseFormat);
@@ -50,14 +50,15 @@ const Saidas = () => {
     reset,
     resetField,
     watch,
+    setValue,
   } = useForm();
   const { errors, isSubmitting } = formState;
+  const fileInputRef = useRef<any>(null);
 
   const [loading, setLoading] = useState<boolean>(false);
   const [open, setOpen] = useState<boolean>(false);
   const [total, setTotal] = useState<string>("");
   const [data, setData] = useState<IPropsTable[]>([]);
-  const [categ, setCateg] = useState<any[]>([]);
   const [cards, setCards] = useState<any[]>([]);
   const [list, setList] = useState<any>([{ id: 0 }]);
   const [date, setDate] = useState<any>([
@@ -136,6 +137,7 @@ const Saidas = () => {
         market: body.market,
         date: body.date,
         credit_cards_id: body.credit_cards_id,
+        parcelament: body.parcelament,
         type_payment: body.type_payment,
         products: Object.values(groupedObj),
       });
@@ -152,15 +154,6 @@ const Saidas = () => {
     }
   };
 
-  const getOpt = async () => {
-    try {
-      const { data } = await api.get("auth/get-categ");
-      setCateg(data.categ);
-    } catch (error) {
-      message.error("Erro ao listar categorias");
-    }
-  };
-
   const getCards = async () => {
     try {
       const { data } = await api.get("auth/get-cards");
@@ -170,18 +163,82 @@ const Saidas = () => {
     }
   };
 
+  const handleFileChange = async (e: any) => {
+    const file = e.target.files[0];
+    const reader = new FileReader();
+
+    reader.onload = async (e: any) => {
+      const data = new Uint8Array(e?.target?.result);
+
+      const workbook = XLSX.read(data, { type: "array" });
+      const sheetName = workbook.SheetNames[0];
+      const worksheet = workbook.Sheets[sheetName];
+      const jsonData: any = XLSX.utils.sheet_to_json(worksheet, { header: 1 });
+
+      const findPosition = (desc: string) => {
+        return jsonData[0].findIndex((item: any) => item == desc);
+      };
+
+      let obj = {
+        name: findPosition("Descrição"),
+        qtd: findPosition("Qtd. Comercial"),
+        value: findPosition("Valor Unit."),
+        type: findPosition("Unid. Comercial"),
+        value_bruto: findPosition("Valor Bruto"),
+      };
+
+      let newList = [];
+
+      function contemUN(texto: string) {
+        // Use uma expressão regular (regex) para procurar "UN" ou "un" no texto
+        const regex = /UN|un/;
+
+        // Use o método test() da regex para verificar se há correspondências
+        return regex.test(texto);
+      }
+
+      for await (const [index, item] of list.entries()) {
+        resetField(`name-${index}`);
+        resetField(`qtd-${index}`);
+        resetField(`value-${index}`);
+        resetField(`category-${index}`);
+      }
+
+      for await (const [index, item] of jsonData.entries()) {
+        if (index == 0) continue;
+        let li = {
+          id: index - 1,
+          [`name-${index - 1}`]: item[obj.name],
+          [`value-${index - 1}`]: contemUN(item[obj.type])
+            ? parseFloat(item[obj.value])
+            : parseFloat(item[obj.value_bruto]),
+          [`qtd-${index - 1}`]: contemUN(item[obj.type]) ? item[obj.qtd] : 1,
+        };
+
+        newList.push(li);
+
+        setValue(`name-${index - 1}`, li[`name-${index - 1}`]);
+        setValue(`qtd-${index - 1}`, li[`qtd-${index - 1}`]);
+        setValue(`value-${index - 1}`, li[`value-${index - 1}`]);
+      }
+      console.log(newList);
+      setList([...newList]);
+    };
+
+    reader.readAsArrayBuffer(file);
+  };
+
   const openModal = () => {
     setOpen(!open);
-    getOpt();
     reset();
     setList([{ id: 1 }]);
     getCards();
   };
-  
+
   useEffect(() => {
     listExits();
-    getOpt();
     getCards();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [date]);
 
   return (
@@ -400,7 +457,7 @@ const Saidas = () => {
                     visibleLabel={true}
                   />
                 </Col>
-                <Col span={watch("type_payment") == "Crédito" ? 12 : 24}>
+                <Col span={watch("type_payment") == "Crédito" ? 8 : 24}>
                   <HookSelect
                     control={control}
                     name="type_payment"
@@ -415,7 +472,7 @@ const Saidas = () => {
                   />
                 </Col>
                 {watch("type_payment") == "Crédito" && (
-                  <Col span={12}>
+                  <Col span={8}>
                     <HookSelect
                       control={control}
                       name="credit_cards_id"
@@ -425,11 +482,34 @@ const Saidas = () => {
                     />
                   </Col>
                 )}
+                {watch("type_payment") == "Crédito" && (
+                  <Col span={8}>
+                    <HookSelect
+                      control={control}
+                      name="parcelament"
+                      label="Cartão de credito"
+                      visibleLabel={true}
+                      opt={[
+                        { label: "Á vista", value: 1 },
+                        { label: "2x", value: 2 },
+                        { label: "3x", value: 3 },
+                        { label: "4x", value: 4 },
+                        { label: "5x", value: 5 },
+                        { label: "6x", value: 6 },
+                        { label: "7x", value: 7 },
+                        { label: "8x", value: 8 },
+                        { label: "9x", value: 9 },
+                        { label: "10x", value: 10 },
+                        { label: "11x", value: 11 },
+                        { label: "12x", value: 12 },
+                      ]}
+                    />
+                  </Col>
+                )}
               </Row>
               {list.length > 0 &&
                 list.map((item: any, index: number) => (
                   <AddExit
-                    categ={categ}
                     control={control}
                     errors={errors}
                     register={register}
@@ -467,23 +547,57 @@ const Saidas = () => {
                 </Text>{" "}
                 <Divider />
               </Flex>
-              <Button
-                isLoading={isSubmitting}
-                w="100%"
-                bg="green.200"
-                type="submit"
-                color="white"
-                borderWidth="1px"
-                borderRadius="2px"
-                borderColor="green.200"
-                _hover={{
-                  bg: "green.800",
-                  borderColor: "green.200",
-                  transition: "all 0.3s",
-                }}
-              >
-                Cadastrar
-              </Button>
+              <Row gutter={[20, 20]} style={{ width: "100%" }}>
+                <Col span={12}>
+                  <Button
+                    isLoading={isSubmitting}
+                    w="100%"
+                    bg="green.200"
+                    type="submit"
+                    color="white"
+                    borderWidth="1px"
+                    borderRadius="2px"
+                    borderColor="green.200"
+                    _hover={{
+                      bg: "green.800",
+                      borderColor: "green.200",
+                      transition: "all 0.3s",
+                    }}
+                  >
+                    Cadastrar
+                  </Button>
+                </Col>
+                <Col span={12}>
+                  <Button
+                    isLoading={isSubmitting}
+                    bg="transparent"
+                    w="100%"
+                    type="button"
+                    color="white"
+                    borderWidth="1px"
+                    borderRadius="2px"
+                    borderColor="green.200"
+                    onClick={() => {
+                      fileInputRef.current.click();
+                    }}
+                    _hover={{
+                      bg: "green.800",
+                      borderColor: "green.200",
+                      transition: "all 0.3s",
+                    }}
+                  >
+                    Importar nota
+                  </Button>
+                  <input
+                    id="file"
+                    type="file"
+                    multiple={false}
+                    ref={fileInputRef}
+                    style={{ display: "none" }}
+                    onChange={handleFileChange}
+                  />
+                </Col>
+              </Row>
             </VStack>
           </form>
         }

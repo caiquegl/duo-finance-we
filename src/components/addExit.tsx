@@ -8,7 +8,6 @@ import { HookInputNumber } from "./form/inputNumber";
 import { HookSearch } from "./form/search";
 
 interface IProps {
-  categ: any;
   errors: any;
   register: any;
   control: any;
@@ -16,7 +15,7 @@ interface IProps {
   sub(): void;
 }
 
-const AddExit = ({ categ, errors, register, control, index, sub }: IProps) => {
+const AddExit = ({ errors, register, control, index, sub }: IProps) => {
   return (
     <Row gutter={[20, 20]} style={{ width: "100%" }}>
       <Col span={6}>
@@ -41,8 +40,11 @@ const AddExit = ({ categ, errors, register, control, index, sub }: IProps) => {
         />
       </Col>
       <Col span={6}>
-        <HookInputNumber
-          control={control}
+        <HookInput
+          {...register(`value-${index}`, {
+            required: "Campo obrigatório",
+          })}
+          // control={control}
           name={`value-${index}`}
           visibleLabel={true}
           label="Valor"
