@@ -50,7 +50,6 @@ const Saidas = () => {
   const [loading, setLoading] = useState<boolean>(false);
   const [total, setTotal] = useState<string>("");
   const [data, setData] = useState<IPropsTable[]>([]);
-  const [categ, setCateg] = useState<any[]>([]);
   const [date, setDate] = useState<any>([
     dayjs().startOf("month"),
     dayjs().endOf("month"),
@@ -95,15 +94,6 @@ const Saidas = () => {
     }
   };
 
-  const getOpt = async () => {
-    try {
-      const { data } = await api.get("auth/get-categ");
-      setCateg(data.categ);
-    } catch (error) {
-      message.error("Erro ao listar categorias");
-    }
-  };
-
   const onRegister = async (body: any) => {
     try {
       await api.post("auth/insert-entry", body);
@@ -121,13 +111,11 @@ const Saidas = () => {
 
   const openModal = () => {
     setOpen(!open);
-    getOpt();
     reset();
   };
 
   useEffect(() => {
     listExits();
-    getOpt();
   }, [date]);
 
   return (
