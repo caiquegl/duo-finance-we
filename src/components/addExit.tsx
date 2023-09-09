@@ -48,7 +48,7 @@ const AddExit = ({ errors, register, control, index, sub }: IProps) => {
           name={`value-${index}`}
           visibleLabel={true}
           label="Valor"
-          type="number"
+          // type="number"
           error={errors.value}
         />
       </Col>

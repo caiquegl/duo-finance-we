@@ -15,7 +15,7 @@ export default async function GetExits(req: NextApiRequest, res: NextApiResponse
         if (req.cookies["nextAuth.duoFinanceOrganization"]) organization = JSON.parse(req.cookies["nextAuth.duoFinanceOrganization"])
 
         let totalValue = req.body.products.reduce((accumulator: any, currentValue: any) => {
-            return accumulator + currentValue.value;
+            return accumulator + parseFloat(currentValue.value);
         }, 0);
 
         const criarArrayComPosicoes = (numeroDePosicoes: number) => {
